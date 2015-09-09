@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -56,20 +56,33 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #484848;
+  /*background-image: linear-gradient(120deg, #FFFF00, #FFFFFF);*/
+  border-radius: 20px;
+  margin: 20px 20px 0px 20px;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+	border-top: 20px solid #484848;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 3rem 3rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 2rem 3rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    padding: 1rem 1rem; } }
 
 .project-name {
   margin-top: 0;
@@ -88,9 +101,9 @@ a {
     font-size: 1.75rem; } }
 
 .project-tagline {
-  margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7; }
+  opacity: 1;
+  color: #989898; }
 
 @media screen and (min-width: 64em) {
   .project-tagline {
@@ -243,3 +256,37 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url(SF-UI-Text-Regular.otf);
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url(SF-UI-Text-Regular.otf);
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: normal;
+  src: url(SF-UI-Text-Regular.otf);
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url(SF-UI-Text-Bold.otf);
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: bold;
+  src: url(SF-UI-Text-Bold.otf);
+}
