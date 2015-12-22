@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -256,37 +256,3 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 100;
-  src: url(SF-UI-Text-Regular.otf);
-}
-
-/** Thin */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 200;
-  src: url(SF-UI-Text-Regular.otf);
-}
-
-/** Medium */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: normal;
-  src: url(SF-UI-Text-Regular.otf);
-}
-
-/** Semi Bold */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 500;
-  src: url(SF-UI-Text-Bold.otf);
-}
-
-/** Bold */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: bold;
-  src: url(SF-UI-Text-Bold.otf);
-}
