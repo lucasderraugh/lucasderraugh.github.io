@@ -1,5 +1,23 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+  
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.content {
+	margin: auto;
+}
 
 body {
   padding: 0;
